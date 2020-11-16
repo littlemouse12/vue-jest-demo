@@ -27,4 +27,12 @@ module.exports = {
     'text-summary'
   ],
   testResultsProcessor: "./node_modules/jest-junit-reporter",
+  //"reporters": [
+  //"default",
+  //["jest-html-reporters", {
+   // "publicPath": "./html-report",
+    //"filename": "report.html",
+    //"expand": true
+  //}]
+]
 };
