@@ -19,7 +19,12 @@ module.exports = {
     "jest-watch-typeahead/filename",
     "jest-watch-typeahead/testname"
   ],
-  collectCoverage: true,
-  collectCoverageFrom: ["**/*.{js,vue}", "!**/node_modules/**"],
+  collectCoverageFrom: ['src/utils/**/*.{js,vue}', '!src/utils/auth.js', '!src/utils/request.js', 'src/components/**/*.{js,vue}'],
+  coverageDirectory: '<rootDir>/tests/unit/coverage',
+  // 'collectCoverage': true,
+  'coverageReporters': [
+    'lcov',
+    'text-summary'
+  ],
   testResultsProcessor: "./node_modules/jest-junit-reporter",
 };
