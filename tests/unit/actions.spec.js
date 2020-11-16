@@ -37,7 +37,7 @@ describe("Actions.vue", () => {
 
     const p = wrapper.find("p");
 
-    expect(p.text()).toBe("input!!-edit-for-test-false-condition");
+    expect(p.text()).toBe("input!!");
     expect(store.getters.text).toBe("input!!");
   });
 });
