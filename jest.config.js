@@ -34,5 +34,5 @@ module.exports = {
     //"filename": "report.html",
     //"expand": true
   //}]
-]
+//]
 };
