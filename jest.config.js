@@ -19,7 +19,7 @@ module.exports = {
     "jest-watch-typeahead/filename",
     "jest-watch-typeahead/testname"
   ],
-  collectCoverageFrom: ['src/utils/**/*.{js,vue}','src/*.{js,vue}', '!src/utils/auth.js', '!src/utils/request.js', 'src/components/**/*.{js,vue}'],
+  collectCoverageFrom: ['src/**/*.{js,vue}', '!src/utils/auth.js', '!src/utils/request.js', 'src/components/**/*.{js,vue}'],
   coverageDirectory: '<rootDir>/tests/unit/coverage',
   // 'collectCoverage': true,
   'coverageReporters': [
