@@ -24,7 +24,8 @@ module.exports = {
   // 'collectCoverage': true,
   'coverageReporters': [
     'lcov',
-    'text-summary'
+    'text-summary',
+    'cobertura'
   ],
   testResultsProcessor: "./node_modules/jest-junit-reporter",
   //"reporters": [
