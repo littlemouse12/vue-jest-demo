@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "test": "vue-cli-service test:unit  --coverage --ci --reporters=default --reporters=jest-junit"
+    "test": "vue-cli-service test:unit  --coverage --ci --testResultsProcessor=./node_modules/jest-junit-reporter"
   },
   "dependencies": {
     "core-js": "^2.6.5",
