@@ -20,5 +20,6 @@ module.exports = {
     "jest-watch-typeahead/testname"
   ],
   collectCoverage: true,
-  collectCoverageFrom: ["**/*.{js,vue}", "!**/node_modules/**"]
+  collectCoverageFrom: ["**/*.{js,vue}", "!**/node_modules/**"],
+  testResultsProcessor: "./node_modules/jest-junit-reporter",
 };
