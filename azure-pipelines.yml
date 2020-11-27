@@ -22,7 +22,7 @@ steps:
     # npm install jest-html-reporters --save-dev
     npm install --save-dev mochawesome
     npm i -D jest-junit-reporter
-    npm run build
+     #npm run build
     npm run test
   displayName: 'npm install and build'
 
