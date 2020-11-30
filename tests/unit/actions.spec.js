@@ -17,8 +17,8 @@ describe("Actions.vue", () => {
 
     const p = wrapper.find("p");
 
-    expect(p.text()).toBe("input_error");
-    expect(store.getters.text).toBe("input_error");
+    expect(p.text()).toBe("input");
+    expect(store.getters.text).toBe("input");
   });
 
   it('does not dispatch "actionInput" when event value is not "input"', () => {
@@ -29,7 +29,7 @@ describe("Actions.vue", () => {
     const p = wrapper.find("p");
 
     expect(p.text()).toBe("");
-    expect(store.getters.text).toBe("error");
+    expect(store.getters.text).toBe("");
   });
 
   it('calls store action "actionClick" when button is clicked', () => {
