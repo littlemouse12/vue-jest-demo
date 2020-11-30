@@ -17,8 +17,8 @@ steps:
 
 - script: |
     npm install
-    # npm install --save-dev jest @vue/test-utils
-    # npm install --save-dev vue-jest
+    npm install --save-dev jest @vue/test-utils
+    npm install --save-dev vue-jest
     # npm install jest-html-reporters --save-dev
     # npm install --save-dev mochawesome
     npm i -D jest-junit-reporter
